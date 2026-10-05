@@ -2,16 +2,6 @@
 
 Exposes SillyTavern's built-in prompt itemizer data as slash commands, so the raw prompt can be piped into other STscript commands instead of being read out of a popup.
 
-## Install
-
-Drop the folder into:
-
-```
-SillyTavern/public/scripts/extensions/third-party/st-raw-prompt/
-```
-
-Then reload the UI. The relative imports in `index.js` assume exactly that depth, so renaming the folder is fine but moving it is not.
-
 ## Commands
 
 | Command | Returns |
